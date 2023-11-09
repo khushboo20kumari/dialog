@@ -1,11 +1,13 @@
 
 import './App.css';
 // import FormDialog from './DialogForm';
-import AlertDialog from "./DialogText";
+// import AlertDialog from "./DialogText";
+import FullScreenDialog from "./Fullscreendialogs";
 function App() {
   return (
     <div className="App">
-      <AlertDialog/>
+      <FullScreenDialog/>
+      {/* <AlertDialog/> */}
       {/* <FormDialog/> */}
      
     </div>
